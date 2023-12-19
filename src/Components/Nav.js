@@ -1,6 +1,38 @@
 import React from "react";
+import { enableRipple } from "@syncfusion/ej2-base";
+import { DropDownButtonComponent } from "@syncfusion/ej2-react-splitbuttons";
+import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
+enableRipple(true);
 
 function Nav() {
+	let Authors = [
+		{
+			text: "Tite Kubo",
+		},
+		{
+			text: "Masashi Kishimoto",
+		},
+		{
+			text: "Eiichiro Oda",
+		},
+		{
+			text: "Junji Ito",
+		},
+	];
+	let Series = [
+		{
+			text: "Jujutsu Kaisen",
+		},
+		{
+			text: "Chainsaw Man",
+		},
+		{
+			text: "Boruto",
+		},
+		{
+			text: "Demon Slayer",
+		},
+	];
 	return (
 		<nav>
 			<bar1>FREE SHIPPING FOR ORDERS OVER $50</bar1>
@@ -12,44 +44,38 @@ function Nav() {
 					className="search"
 					placeholder="Search..."
 				></input>
-				<button>Search</button>
+				<ButtonComponent cssClass="e-info">Search</ButtonComponent>
 				<div>
-					<div>Login/SignUp</div>
-					<div>Cart</div>
+					<ButtonComponent cssClass="e-link">Login/SignUp</ButtonComponent>
+					<ButtonComponent cssClass="e-link">Cart</ButtonComponent>
 				</div>
 			</bar2>
 			<bar3>
 				<ul>
-					<li>Home</li>
-					<li>Coming Soon</li>
-					<li>New Arrivals</li>
-					<li>Best Sellers</li>
+					<ButtonComponent cssClass="e-link">Home</ButtonComponent>
+					<ButtonComponent cssClass="e-link">Coming Soon</ButtonComponent>
+					<ButtonComponent cssClass="e-link">New Arrivals</ButtonComponent>
+					<ButtonComponent cssClass="e-link">Best Sellers</ButtonComponent>
 					<li className="bySeries">
-						Shop By Series ^
-						<ul id="dropdown">
-							<li>1</li>
-							<li>2</li>
-							<li>3</li>
-							<li>4</li>
-							<li>5</li>
-							<li>6</li>
-						</ul>
+						<DropDownButtonComponent
+							items={Series}
+							iconCss="ddb-icons e-message"
+						>
+							Shop By Series
+						</DropDownButtonComponent>
 					</li>
 					<li className="byAuthor">
-						Shop By Author ^
-						<ul id="dropdown">
-							<li>1</li>
-							<li>2</li>
-							<li>3</li>
-							<li>4</li>
-							<li>5</li>
-							<li>6</li>
-						</ul>
+						<DropDownButtonComponent
+							items={Authors}
+							iconCss="ddb-icons e-message"
+						>
+							Shop By Author
+						</DropDownButtonComponent>
 					</li>
-					<li>About</li>
-					<li>FAQ</li>
-					<li>Contact</li>
-					<li>Track Order</li>
+					<ButtonComponent cssClass="e-link">About</ButtonComponent>
+					<ButtonComponent cssClass="e-link">FAQ</ButtonComponent>
+					<ButtonComponent cssClass="e-link">Contact</ButtonComponent>
+					<ButtonComponent cssClass="e-link">Track Order</ButtonComponent>
 				</ul>
 			</bar3>
 		</nav>
