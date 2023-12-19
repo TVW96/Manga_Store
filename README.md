@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Manga_Store clone site
+![alt text](https://soranews24.com/wp-content/uploads/sites/3/2013/04/p1050633.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Path to Completion
+**Step 1: Nav**
+- Search bar 	[resource](https://plainenglish.io/blog/how-to-implement-a-search-bar-in-react-js)  
+- Icons & Logos [resource](https://ej2.syncfusion.com/react/documentation/drop-down-button/icons)  
+- Drop down list [resource](https://ej2.syncfusion.com/react/documentation/drop-down-button/icons)  
+  
+**Step 2: Hero/header**
+- Animation
+- Radio Buttons
+  
+**Step 3: Products Section**
+- TBD...
 
-In the project directory, you can run:
+## Dependencies
+- SyncFusion | EJ2 React, **DropDownList**
 
-### `npm start`
+The following list of dependcies are required to use the dropdown button in Syncfusion
+  ```
+  |-- @syncfusion/ej2-react-splitbuttons
+    |-- @syncfusion/ej2-react-base
+    |-- @syncfusion/ej2-base
+    |-- @syncfusion/ej2-splitbuttons
+        |-- @syncfusion/ej2-popups
+            |-- @syncfusion/ej2-buttons
+  ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Adding the required syncfusion package
+```
+npm install @syncfusion/ej2-react-dropdowns –save
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The list of dependencies required to use the Button component in your application is given below:
 
-### `npm test`
+```
+|-- @syncfusion/ej2-react-buttons
+    |-- @syncfusion/ej2-react-base
+    |-- @syncfusion/ej2-base
+    |-- @syncfusion/ej2-buttons
+```
+Adding Syncfusion packages
+All the available Essential JS 2 packages are published in npmjs.com public registry.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install Button component, use the following command
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install @syncfusion/ej2-react-buttons --save
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
