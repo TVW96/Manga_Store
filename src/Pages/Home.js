@@ -2,7 +2,7 @@ import React from "react";
 import Carousel, { CarouselItem } from "../Components/Carousel";
 import Jujutsu from "../Assets/jujutsu-kaisen-banner.jpg";
 import Chainsaw from "../Assets/chainsawman-banner.jpg";
-import DemonSLayer from "../Assets/DemonSlayer-banner.jpg";
+import DemonSlayer from "../Assets/demonslayer-banner.jpg";
 import "../Components/Carousel.sass";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
 					<img src={Chainsaw} alt="" id="styles" />
 				</CarouselItem>
 				<CarouselItem>
-					<img src={DemonSLayer} alt="" id="styles" />
+					<img src={DemonSlayer} alt="" id="styles" />
 				</CarouselItem>
 			</Carousel>
 		</div>

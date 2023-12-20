@@ -1,3 +1,4 @@
+import SearchBar from "./SearchBar";
 import React from "react";
 import { enableRipple } from "@syncfusion/ej2-base";
 import { DropDownButtonComponent } from "@syncfusion/ej2-react-splitbuttons";
@@ -38,12 +39,7 @@ function Nav() {
 			<bar1>FREE SHIPPING FOR ORDERS OVER $50</bar1>
 			<bar2>
 				<div>Manga Store Logo</div>
-				<input
-					type="search"
-					id="site-search"
-					className="search"
-					placeholder="Search..."
-				></input>
+				<SearchBar />
 				<ButtonComponent cssClass="e-info">Search</ButtonComponent>
 				<div>
 					<ButtonComponent cssClass="e-link">Login/SignUp</ButtonComponent>
