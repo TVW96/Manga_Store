@@ -1,24 +1,10 @@
 import React from "react";
-import Carousel, { CarouselItem } from "../Components/Carousel";
-import Jujutsu from "../Assets/jujutsu-kaisen-banner.jpg";
-import Chainsaw from "../Assets/chainsawman-banner.jpg";
-import DemonSlayer from "../Assets/demonslayer-banner.jpg";
-import "../Components/Carousel.sass";
+import CarouselSlideShow from "../Components/Products/CarouselSlideShow";
 
 function Home() {
 	return (
 		<div>
-			<Carousel>
-				<CarouselItem>
-					<img src={Jujutsu} alt="" id="styles" />
-				</CarouselItem>
-				<CarouselItem>
-					<img src={Chainsaw} alt="" id="styles" />
-				</CarouselItem>
-				<CarouselItem>
-					<img src={DemonSlayer} alt="" id="styles" />
-				</CarouselItem>
-			</Carousel>
+			<CarouselSlideShow />
 		</div>
 	);
 }

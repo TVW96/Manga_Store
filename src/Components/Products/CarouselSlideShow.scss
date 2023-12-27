@@ -1,0 +1,26 @@
+
+h1 {
+  font-size: 29px;
+  font-family: "Bangers";
+  word-spacing: 0.25;
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(255, 86, 14);
+  border-color:rgb(255, 86, 14);
+  font-family: "Bangers";
+  letter-spacing: 0.25em;
+}
+.button:hover {
+  opacity: 80%;
+  transition: ease-in-out
+}
+#carousel-container {
+  min-width: 1000px;
+}
+#carousel-Item {
+  display: flex;
+  justify-content: center;
+}

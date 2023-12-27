@@ -1,0 +1,170 @@
+[
+	{
+		"id": "1",
+		"name": "Chainsaw Man",
+		"volume": "Vol.1",
+		"author": "Tatsuki Fujimoto",
+		"image": "./Assets/Chainsaw_Man/Chainsaw_vol1.jpg"
+	},
+	{
+		"id": "2",
+		"name": "Chainsaw Man",
+		"volume": "Vol.2",
+		"author": "Tatsuki Fujimoto",
+		"image": "./Assets/Chainsaw_Man/Chainsaw_Man_Vol_2.jpg"
+	},
+	{
+		"id": "3",
+		"name": "Chainsaw Man",
+		"volume": "Vol.3",
+		"author": "Tatsuki Fujimoto",
+		"image": "./Assets/Chainsaw_Man/Chainsaw_Man_Vol_3.jpg"
+	},
+	{
+		"id": "4",
+		"name": "Chainsaw Man",
+		"volume": "Vol.4",
+		"author": "Tatsuki Fujimoto",
+		"image": ""
+	},
+	{
+		"id": "5",
+		"name": "Chainsaw Man",
+		"volume": "Vol.5",
+		"author": "Tatsuki Fujimoto",
+		"image": ""
+	},
+	{
+		"id": "6",
+		"name": "Chainsaw Man",
+		"volume": "Vol.6",
+		"author": "Tatsuki Fujimoto",
+		"image": ""
+	},
+	{
+		"id": "7",
+		"name": "Hunter X Hunter",
+		"volume": "Vol.1",
+		"author": "Yoshihiro Togashi",
+		"image": ""
+	},
+	{
+		"id": "8",
+		"name": "Hunter X Hunter",
+		"volume": "Vol.2",
+		"author": "Yoshihiro Togashi",
+		"image": ""
+	},
+	{
+		"id": "9",
+		"name": "Hunter X Hunter",
+		"volume": "Vol.3",
+		"author": "Yoshihiro Togashi",
+		"image": ""
+	},
+	{
+		"id": "10",
+		"name": "Hunter X Hunter",
+		"volume": "Vol.4",
+		"author": "Yoshihiro Togashi",
+		"image": ""
+	},
+	{
+		"id": "11",
+		"name": "Hunter X Hunter",
+		"volume": "Vol.5",
+		"author": "Yoshihiro Togashi",
+		"image": ""
+	},
+	{
+		"id": "12",
+		"name": "Hunter X Hunter",
+		"volume": "Vol.6",
+		"author": "Yoshihiro Togashi",
+		"image": ""
+	},
+	{
+		"id": "13",
+		"name": "My Hero Academia",
+		"volume": "Vol.1",
+		"author": "Kohei Horikoshi",
+		"image": ""
+	},
+	{
+		"id": "14",
+		"name": "My Hero Academia",
+		"volume": "Vol.2",
+		"author": "Kohei Horikoshi",
+		"image": ""
+	},
+	{
+		"id": "15",
+		"name": "My Hero Academia",
+		"volume": "Vol.3",
+		"author": "Kohei Horikoshi",
+		"image": ""
+	},
+	{
+		"id": "16",
+		"name": "My Hero Academia",
+		"volume": "Vol.4",
+		"author": "Kohei Horikoshi",
+		"image": ""
+	},
+	{
+		"id": "17",
+		"name": "My Hero Academia",
+		"volume": "Vol.5",
+		"author": "Kohei Horikoshi",
+		"image": ""
+	},
+	{
+		"id": "18",
+		"name": "My Hero Academia",
+		"volume": "Vol.6",
+		"author": "Kohei Horikoshi",
+		"image": ""
+	},
+	{
+		"id": "19",
+		"name": "Spy X Family",
+		"volume": "Vol.1",
+		"author": "Tatsuya Endo",
+		"image": ""
+	},
+	{
+		"id": "20",
+		"name": "Spy X Family",
+		"volume": "Vol.2",
+		"author": "Tatsuya Endo",
+		"image": ""
+	},
+	{
+		"id": "21",
+		"name": "Spy X Family",
+		"volume": "Vol.3",
+		"author": "Tatsuya Endo",
+		"image": ""
+	},
+	{
+		"id": "22",
+		"name": "Spy X Family",
+		"volume": "Vol.4",
+		"author": "Tatsuya Endo",
+		"image": ""
+	},
+	{
+		"id": "23",
+		"name": "Spy X Family",
+		"volume": "Vol.5",
+		"author": "Tatsuya Endo",
+		"image": ""
+	},
+	{
+		"id": "24",
+		"name": "Spy X Family",
+		"volume": "Vol.6",
+		"author": "Tatsuya Endo",
+		"image": ""
+	}
+]
