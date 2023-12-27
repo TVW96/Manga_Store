@@ -1,51 +1,44 @@
-# Manga_Store clone site
-## Remove uncessary dependencies. [^1]
+# MangaMart clone site
 
-[^1]: Dependencies can lead to broken site links, expensive maintanance and more.
-
-![alt text](https://soranews24.com/wp-content/uploads/sites/3/2013/04/p1050633.jpg)
+![Screenshot 2023-12-26 at 7 18 57 PM](https://github.com/TVW96/Manga_Store/assets/103076891/8ffc50c4-4296-4c4e-af52-6aa3324338f2)
 
 
 # Path to Completion
 ### **Step 1: Nav**
-- Search bar 	[resource](https://plainenglish.io/blog/how-to-implement-a-search-bar-in-react-js)  
-- Icons & Logos [resource](https://ej2.syncfusion.com/react/documentation/drop-down-button/icons)  
+- ~Search bar~ 	[resource](https://plainenglish.io/blog/how-to-implement-a-search-bar-in-react-js)  
+- ~Icons & Logos~ [resource](https://ej2.syncfusion.com/react/documentation/drop-down-button/icons)  
 - ~Drop down list~ 
   
 ### **Step 2: Hero/header**
 - ~Animation~
-- ~Radio Buttons~
+- Radio Buttons
   
 ### **Step 3: Products Section**
-- TBD...
+- Holiday sale slider
+- Shop Now gallery
+- New arrivals
+- Shop By Series
+- Coming Soon
+- Best Sellers
 
-# Dependencies
-### SyncFusion | EJ2 React
-[syncfusion essentials studio](https://www.syncfusion.com/) 
-Adding the required syncfusion packages:
-```
-npm install @syncfusion/ej2-react-dropdowns –save
-npm install @syncfusion/ej2-react-buttons --save
-```
-**DropDownList** dependencies list:
-  ```
-  |-- @syncfusion/ej2-react-splitbuttons
-    |-- @syncfusion/ej2-react-base
-    |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-splitbuttons
-        |-- @syncfusion/ej2-popups
-            |-- @syncfusion/ej2-buttons
-  ```
-**Buttoncomponent** dependencies list:
-```
-|-- @syncfusion/ej2-react-buttons
-    |-- @syncfusion/ej2-react-base
-    |-- @syncfusion/ej2-base
-    |-- @syncfusion/ej2-buttons
-```
+### **Step 4: Footer**
+- Footer layout
+- styling
+
+### **Step 5: Route all Site Links**
+- nav links
+- product links
+- footer links
+
+# CSS Dependencies
+### React Bootstrap
+
+[React Bootstrap developer site](https://react-bootstrap.netlify.app/) 
 
 ### React Swipeable 
 
 [react-swipeable npm package](https://www.npmjs.com/package/react-swipeable) 
 
+### Font Awesome
 
+[Font Awesome developer site](https://fontawesome.com/) 
