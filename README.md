@@ -14,7 +14,10 @@
 - Radio Buttons
   
 ### **Step 3: Products Section**
-- Holiday sale slider
+- Holiday sale slider.
+  
+  **small css progress on slider**
+  ![Css progress on slider component](https://github.com/TVW96/Manga_Store/assets/103076891/ce0d941c-0e03-458c-a285-0d8b3e09a2cc)
 - Shop Now gallery
 - New arrivals
 - Shop By Series
