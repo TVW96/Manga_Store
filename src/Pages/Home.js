@@ -1,6 +1,7 @@
 import React from "react";
-import CarouselSlideShow from "../Components/Products/CarouselSlideShow";
-import HolidaySale from "../Components/Products/HolidaySale";
+import CarouselSlideShow from "../Components/Products/CarouselSlideShow/CarouselSlideShow";
+import HolidaySale from "../Components/Products/HolidaySale/HolidaySale";
+import ShopNowPanel from "../Components/Products/ShopNowPanels/ShopNowPanel";
 
 function Home() {
 	return (
@@ -8,6 +9,7 @@ function Home() {
 			<CarouselSlideShow />
 			<div className="products-section-container">
 				<HolidaySale />
+				<ShopNowPanel />
 			</div>
 		</div>
 	);

@@ -1,6 +1,6 @@
 import React from "react";
 import "./HolidaySale.scss";
-import Hunter5 from "../../Assets/Hunter_X_Hunter/hunterxhuntervol5.jpg";
+import Hunter5 from "../../../Assets/Hunter_X_Hunter/hunterxhuntervol5.jpg";
 
 function HolidaySale() {
 	return (
@@ -20,12 +20,11 @@ function HolidaySale() {
 					<h3>HUNTER X HUNTER, VOL. 5</h3>
 					<div className="sale">
 						<h3 className="sale-price">$6.99</h3>
-						<h3 className="price">$6.99</h3>
+						<h3 className="price">$9.99</h3>
 					</div>
 				</div>
 				{/* map data above */}
 			</div>
-			<h2>spacer</h2>
 		</div>
 	);
 }

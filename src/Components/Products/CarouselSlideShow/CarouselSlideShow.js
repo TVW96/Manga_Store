@@ -5,9 +5,9 @@ import Button from "react-bootstrap/Button";
 
 import "./CarouselSlideShow.scss";
 
-import DemonSlayer from "../../Assets/Demon-slayer-Manga-banner.jpg";
-import OnePiece from "../../Assets/one-piece-banner.jpg";
-import ChainsawMan from "../../Assets/Man-Bat-Chainsaw-Man.jpg";
+import DemonSlayer from "../../../Assets/Demon-slayer-Manga-banner.jpg";
+import OnePiece from "../../../Assets/one-piece-banner.jpg";
+import ChainsawMan from "../../../Assets/Man-Bat-Chainsaw-Man.jpg";
 
 function CarouselSlideShow() {
 	return (

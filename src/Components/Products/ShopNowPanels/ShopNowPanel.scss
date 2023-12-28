@@ -1,0 +1,40 @@
+.shop-now-panels {
+  height: 600px; 
+  background-color: white;
+  display: grid;
+  grid-template-areas:
+  "a a c c c d d"
+  "b b c c c e e";
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 24% 52% 24%;
+  .shop-now-panel {
+    width: auto; 
+    height: auto;
+  }
+  #one {
+    grid-area: a;
+    background-color: aquamarine;
+    margin-bottom: 15px;
+  }
+  #two {
+    grid-area: b;
+    background-color: black;
+    margin-top: 15px;
+  }
+  #three {
+    grid-area: c;
+    background-color: blanchedalmond;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  #four {
+    grid-area: d;
+    background-color: burlywood;
+    margin-bottom: 15px;
+  }
+  #five {
+    grid-area: e;
+    background-color: blueviolet;
+    margin-top: 15px;
+  }
+}

@@ -1,5 +1,6 @@
 .holiday-container {
- width: 100%;
+ width: auto;
+ max-width: 1480px;
  height: 450px;
  background-color: rgb(249, 249, 249);
  border-color: rgb(221, 223, 224);
@@ -8,12 +9,13 @@
  border-radius: 3px;
  padding: 0px;
  margin: 0px;
+ margin-bottom: 67px;
  display: block;
  justify-content: center;
  .holiday-item {
   width: 233px;
   height: 100%;
-  border: solid .5px rgb(221, 223, 224);
+  border-right: solid .5px rgb(221, 223, 224);
   display: flex;
   justify-content: center;
   flex-direction: column;
