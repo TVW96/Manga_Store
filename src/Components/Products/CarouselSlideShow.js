@@ -13,8 +13,8 @@ function CarouselSlideShow() {
 	return (
 		<Container
 			fluid
-			style={{ display: "block", padding: 0, margin: 0, width: "w-100" }}
-			id="carousel-container"
+			style={{ padding: 0, margin: 0, width: "w-100" }}
+			className="mb-5"
 		>
 			<Carousel>
 				<Carousel.Item
@@ -22,12 +22,7 @@ function CarouselSlideShow() {
 					style={{ height: 520 }}
 					id="carousel-Image"
 				>
-					<img
-						src={ChainsawMan}
-						alt=""
-						className="d-block w-100 h-100"
-						id="carousel-Item"
-					/>
+					<img src={ChainsawMan} alt="" id="carousel-Item" />
 					<Carousel.Caption className="d-flex flex-column h-100 align-items-center justify-content-center">
 						<h1>Chainsaw Man</h1>
 						<Button className="button">Shop Now</Button>
@@ -39,12 +34,7 @@ function CarouselSlideShow() {
 					style={{ height: 520 }}
 					id="carousel-Image"
 				>
-					<img
-						src={OnePiece}
-						alt=""
-						className="d-block w-100 h-100"
-						id="carousel-Item"
-					/>
+					<img src={OnePiece} alt="" id="carousel-Item" />
 					<Carousel.Caption className="d-flex flex-column h-100 align-items-center justify-content-center">
 						<h1>One Piece</h1>
 						<Button className="button">Shop Now</Button>
@@ -56,12 +46,7 @@ function CarouselSlideShow() {
 					style={{ height: 520 }}
 					id="carousel-Image"
 				>
-					<img
-						src={DemonSlayer}
-						alt=""
-						className="d-block w-100 h-100"
-						id="carousel-Item"
-					/>
+					<img src={DemonSlayer} alt="" id="carousel-Item" />
 					<Carousel.Caption className="d-flex flex-column h-100 align-items-center justify-content-center">
 						<h1>Demon Slayer</h1>
 						<Button className="button">Shop Now</Button>
