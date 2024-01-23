@@ -1,0 +1,25 @@
+
+.ShopBySeries {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  .sectionTitle {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  h2 {
+    font-family: "Bangers";
+    font-size: 28px;
+    color:rgb(25, 71, 161);
+  }
+  h3 {
+    font-family: "Bangers";
+    font-size: 24px;
+    letter-spacing: normal;
+    font-weight: 100;
+    color:rgb(255, 86, 14);;
+  }
+}
